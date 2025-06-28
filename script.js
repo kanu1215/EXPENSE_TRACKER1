@@ -60,7 +60,7 @@ function handleFormSubmit(e)
     expenseList.innerHTML = "";
     if(data.length===0)
     {
-        expense.innerHTML = `<div class="text-center text-light"> No expenses added yet</div>`;
+        expenseList.innerHTML = `<div class="text-center text-light"> No expenses added yet</div>`;
         return;
 
     }
@@ -97,7 +97,7 @@ function handleFormSubmit(e)
 
         //edit button functionality
         const editBtn = document.createElement("button");
-        editBtn.className = "btn btn-warning btn-sm";
+        editBtn.className = "btn btn-outline-warning btn-sm";
         editBtn.textContent = "Edit";
         editBtn.onclick = () => {
             amountIn.value = item.val.amount;
@@ -109,7 +109,7 @@ function handleFormSubmit(e)
 
  //delete button functionality
          const deleteBtn = document.createElement("button");
-        deleteBtn.className = "btn btn-danger btn-sm";
+        deleteBtn.className = "btn btn-outline-danger btn-sm";
         deleteBtn.textContent = "Delete";
         deleteBtn.onclick = () => {
             localStorage.removeItem(item.key);
