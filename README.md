@@ -30,7 +30,8 @@ Final
 ![Final](https://github.com/user-attachments/assets/f584a17a-eb88-4a56-9238-e87a88e3d7b9)
 
 
+### 🔗 Live Preview
+[Click here to view the deployed Expense Tracker](https://expense-tracker-1-six.vercel.app/)
 
 
-## 📁 Folder Structure
 
